@@ -1,0 +1,37 @@
+/* Общие стили для приложения */
+
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+/* Стили для страниц авторизации (login, register) */
+body.auth-page {
+    display: flex;
+    align-items: center;
+}
+
+/* Стили для главной страницы */
+body.home-page {
+    padding: 20px 0;
+}
+
+.card {
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+.contacts-table {
+    margin-top: 20px;
+}
+
+.alert {
+    margin-top: 15px;
+}
+
+.contact-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
